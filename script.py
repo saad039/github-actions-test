@@ -125,3 +125,5 @@ cc = closure()
 
 for i in range(10):
     print(cc())
+
+import regex,sys,numpy,pandas 
