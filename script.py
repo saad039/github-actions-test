@@ -18,7 +18,8 @@ def foo():
     return 9
 
 
-# Create a function producing a string. It's result get consumed by two decorators that first Title case
+# Create a function producing a string. It's result get consumed by two
+# decorators that first Title case
 # it and later split it
 
 def to_title_case(func):
