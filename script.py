@@ -102,7 +102,7 @@ def foo(name, age):
 print(foo('valentine', 'Saint Denis'))
 
 
-print(f'The name of function is: {foo.__name__}')
+print(f'The name of function is : {foo.__name__}')
 print(f'The doc of function is: {foo.__doc__}')
 
 
