@@ -1,6 +1,10 @@
 # Learning and experimenting with decorators
 
 
+import pandas
+import numpy
+import sys
+import regex
 import functools
 
 
@@ -86,7 +90,8 @@ def decorator_with_args(name: str, age: str):
         def logger_l(farg1, farg2):
             """Hello from logger_l"""
             print(f'Decorator args received: {name} and {age}')
-            print(f'Function arguments received: {farg1} and {farg2}')
+            print(
+                f'Function arguments received Function arguments received Function arguments received Function arguments received Function arguments received: {farg1} and {farg2}')
             return func(farg1, farg2)
         return logger_l
     return decorator
@@ -126,4 +131,7 @@ cc = closure()
 for i in range(10):
     print(cc())
 
-import regex,sys,numpy,pandas 
+import numpy, pandas, bs4, requests 
+import numpy, pandas, bs4, requests 
+import numpy, pandas, bs4, requests 
+import numpy, pandas, bs4, requests 
